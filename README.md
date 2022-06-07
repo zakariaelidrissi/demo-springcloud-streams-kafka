@@ -37,7 +37,27 @@
 
 ![image](https://user-images.githubusercontent.com/61559275/172467883-7e3ea3c7-578a-46f8-a847-e7e2ca243a2d.png)
 
+<p>
+ Maintenant on va créer une application spring boot, On va commence par créer d'abord notre contrôleur.<br>
+ D'abord on va créer notre entitie qu'on appelle "PageEvent", puis on va créer notre rest controller qu'on appelle "PageEventRestController".<br>
+ on va créer dans notre contrôleur on fonction qui peut de publier un PageEvent sur un topic.
+</p>
 
+<p>
+ Voici un exemple :
+</p>
+ 
+![image](https://user-images.githubusercontent.com/61559275/172484113-94faa6dd-b349-45db-b291-c056fcf89769.png)
+
+<p>
+ Et en fin on va créer un service qu'on appelle "PageEventService" qui contient une fonction de type Consumer qui reçoi une input et retourne une un objet de type  PageEvent.
+</p>
+
+<p>Voici un exemple : </p>
+
+![image](https://user-images.githubusercontent.com/61559275/172487020-c4e879ca-1cd8-4785-9f5e-8572ef60bd6a.png)
+
+![image](https://user-images.githubusercontent.com/61559275/172487067-f6a19016-4af1-4e93-a846-4428e11e106c.png)
 
 
 
