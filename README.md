@@ -50,7 +50,7 @@
 ![image](https://user-images.githubusercontent.com/61559275/172484113-94faa6dd-b349-45db-b291-c056fcf89769.png)
 
 <p>
- Et en fin on va créer un service qu'on appelle "PageEventService" qui contient une fonction de type Consumer qui reçoi une input et retourne une un objet de type  PageEvent.
+ Puis on va créer un service qu'on appelle "PageEventService" qui contient une fonction de type Consumer qui reçoi une input et retourne une un objet de type  PageEvent.
 </p>
 
 <p>Voici un exemple : </p>
@@ -58,6 +58,20 @@
 ![image](https://user-images.githubusercontent.com/61559275/172487020-c4e879ca-1cd8-4785-9f5e-8572ef60bd6a.png)
 
 ![image](https://user-images.githubusercontent.com/61559275/172487067-f6a19016-4af1-4e93-a846-4428e11e106c.png)
+
+<p>
+ Puis on va créer un autre fonction de type Supplier qui produire des objets de type PageEvent et qui retourne dans chaque second un objet de type PageEvent.
+</p>
+
+
+
+
+
+
+
+
+
+
 
 
 
