@@ -99,7 +99,7 @@
 
 <p>Client HTML Server Sent Event :</p>
 
-![image](https://user-images.githubusercontent.com/61559275/173160041-d5f1f6fa-e2c0-4199-a22c-89ab4fbc513d.png)
+![image](https://user-images.githubusercontent.com/61559275/173160249-1f4fc1a5-e4df-4b25-b059-0c06a6cd8fcc.png)
 
 
 
