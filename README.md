@@ -1,10 +1,17 @@
 # demo-springcloud-streams-kafka
+
+# *****************************************************
+# Zakaria EL Idrissi
+# Master Intelligence Artificiel et Analyse De Données
+# Faculté des sciences Meknès
+# zak.elidrissi@edu.umi.ac.ma
+# *****************************************************
  
 <p>Dans cette partie, on va créer un broker Kafka.</p>
 
 <h3>Le démarrage de kafka</h3>
 <p>
- Alors pour démarrer kafka il faut de démarrer zookeeper, puis on va démarrer kafka
+ Alors pour démarrer kafka il faut de démarrer le serveur zookeeper, puis on va démarrer le serveur kafka
 </p>
 
 <p>Voici un exemple qui montre comment démarrer zookeeper et kafka</p>
@@ -60,16 +67,39 @@
 ![image](https://user-images.githubusercontent.com/61559275/172487067-f6a19016-4af1-4e93-a846-4428e11e106c.png)
 
 <p>
- Puis on va créer un autre fonction de type Supplier qui produire des objets de type PageEvent et qui retourne dans chaque second un objet de type PageEvent.
+ Puis on va créer un autre fonction de type Supplier qui produire des objets de type PageEvent et qui retourne dans chaque second un objet de type PageEvent.<br>
 </p>
 
+![image](https://user-images.githubusercontent.com/61559275/173156524-b0303c39-98bd-4fdd-87d8-b959dbaccd78.png)
+
+<p>
+ puis on va créer une fonction de type Function qui fait à la fois le role de producer et consumer<br>
+ Voici un exemple
+</p>
+
+![image](https://user-images.githubusercontent.com/61559275/173158203-4fe67838-9752-4f92-8696-c9d5f0b8bef0.png)
+
+<p>
+ Après pour traiter les flux de message en temps réel nous avons utilisés kafka stream :
+</p>
+
+![image](https://user-images.githubusercontent.com/61559275/173159182-41fa3bbf-86f0-497f-b694-0406ce160340.png)
 
 
+![image](https://user-images.githubusercontent.com/61559275/173159147-8814c43d-e247-4490-a304-3ab411f26ee1.png)
+
+<p>
+ Pour utiliser les résultats provenant de ktable dans une application on peut les percister dans un store :<br>
+ Interroger Kafka-streams Store avec Server Sent Event : <br>
+ Une fois le client établit une connexion http (la connexion reste ouverte), le serveur va poucer les données vers le client
+</p>
+
+![image](https://user-images.githubusercontent.com/61559275/173159912-f0f2e295-97d0-47a4-a883-93cb6346187d.png)
 
 
+<p>Client HTML Server Sent Event :</p>
 
-
-
+![image](https://user-images.githubusercontent.com/61559275/173160041-d5f1f6fa-e2c0-4199-a22c-89ab4fbc513d.png)
 
 
 
