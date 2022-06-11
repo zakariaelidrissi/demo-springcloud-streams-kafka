@@ -7,7 +7,8 @@
 # zak.elidrissi@edu.umi.ac.ma
 # *****************************************************
  
-<p>Dans cette partie, on va créer un broker Kafka.</p>
+<p>L'objectif de ces travaux pratique est de créer un broker Kafka pour envoyé des messages vers un topic <br>
+ par un producer et le reçoi ce message par un consumer.</p>
 
 <h3>Le démarrage de kafka</h3>
 <p>
