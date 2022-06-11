@@ -94,7 +94,7 @@
  Une fois le client établit une connexion http (la connexion reste ouverte), le serveur va poucer les données vers le client
 </p>
 
-![image](https://user-images.githubusercontent.com/61559275/173160174-12805496-7aaa-4fe4-8418-e2c2a850c359.png)
+![image](https://user-images.githubusercontent.com/61559275/173188873-3d52e63c-5263-4708-a311-f92ea90b8b1f.png)
 
 
 <p>Client HTML Server Sent Event :</p>
